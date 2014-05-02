@@ -1,0 +1,49 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    width: 100%;
+    font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #eaeaea;
+}
+
+#pagecontainer  {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.headerH1  {   
+    margin-top: 30px;
+    font-size: 75pt;
+    color: #b3b3b3;
+    color: rgba(255, 255, 255, 0.3);
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.2); 
+}
+
+.listholder {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#6c615c;
+}
+
+.inputtext {
+    width: 100%;
+   
+}
+
+.inputtext  input {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30pt;
+}
+    
