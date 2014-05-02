@@ -44,15 +44,19 @@ body {
 
 .leftIBox {
     float:left;
-    height: 40px;
-    width:52px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 35px;
+    width:58px;
+    transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg); /* IE 9 */
+    -webkit-transform:rotate(-90deg); /* Opera, Chrome, and Safari */
+    padding-top: 14px;
+    padding-bottom: 6px;
     text-align: center;
     color: #A8A8A8;
     background-color: white;
     font-size: 20pt;
-    border-right: 4px double #ee6666;
+    border-bottom: 4px double #ee6666;
+    
 }
 .inputtext {
     width: 512px;
@@ -63,7 +67,7 @@ body {
 
 .inputtext  input {
     float:left;
-    width: 100%;
+    width: 508px;
     height: 40px;
     text-align: left;
     padding-top: 10px;
